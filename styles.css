@@ -1,0 +1,63 @@
+body {
+  width:100%;
+  height:100vh;
+  background: white url("https://static.toiimg.com/photo/79679098.cms") no-repeat fixed center;
+  background-size:cover;
+  color : white;
+  margin:auto;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+#container{
+  height:1000px ;
+  width:600px;
+  margin: 0.1 55%;
+  background: rgba(213,233,4, 0.3)
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+form{
+  width:60vh;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset{
+  border:none;
+  padding:1rem 0;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input, textarea,select{
+  margin:10px 0 0 0;
+  width:100%;
+  min-height:2em;
+}
+input , textarea{
+  background-color:white;
+  border:1px solid rgb(226,233,4);
+  color: #0a0a23;
+}
+.inline{
+  width:unset;
+  margin: 0 0.5em 0 0;
+  vertical-align:middle;
+}
+input[type="submit"] {
+  display:block;
+  width:100%;
+  margin: 1em auto;
+  height:2rem;
+  font-size: 1.1rem;
+  font-style:bold;
+  color:green;
+  min-width:300px;
+}
+.inline{
+  display: inline; 
+}
