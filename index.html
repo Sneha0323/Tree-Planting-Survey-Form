@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+    <h1 id="title">Tree Planting Survey Form</h1>
+    <p id="description">Thank you so much for your time in completing our survey.</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+      <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeHolder="Enter your name" required/> 
+      </label>
+      <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeHolder="Enter your email" required/></label>
+      <label id="number-label" for="number">Age(optional)<input id="number" name="number"
+ type="number"placeholder="Age" min="18" max="90"/>
+ </label>
+  <label for="referrer">Select your gender
+<select id="dropdown" name="role">
+<option value="">(select one)</option>
+<option value="1">Male</option>
+<option value="2">Female</option>
+<option value="3">other</option>
+</select>
+</label>
+   </fieldset>
+   <fieldset>
+ <legend>Do you believe planting trees helps combat climate change?</legend>
+ <label for="pick-yes"><input type="radio" value="yes" name="yes-no" id="pick-yes" class="inline" checked />Yes</label>
+ <label for="pick-no"><input type="radio" value="no" name="yes-no" id="pick-no" class="inline" />No</label>
+ <label for="pick-notsure"><input type="radio" value="not" name="yes-no" id="pick-notsure" class="inline"/>Not sure</label>
+ </fieldset>
+ <fieldset>
+ <legend>What is your favorite type of tree?</legend>
+  <label for="banyan-tree"><input type="checkbox" name="banyan" value="Banyan-Tree" class="inline" />Banyan Tree</label>
+    <label for="oak-tree"><input type="checkbox" name="oak" value="oak-tree" class="inline"  />Oak Tree</label>
+    <label for="banana-tree"><input type="checkbox" name="banana" value="banana-tree" class="inline" />Banana Tree</label>
+    <label for="pine-tree"><input type="checkbox" name="pine" value="pine-tree" class="inline" />Pine Tree</label>
+    <label for="spruce-tree"><input type="checkbox" name="Spruce" value="spruce-tree" class="inline" />Spruce Tree</label>
+    </fieldset>
+    <fieldset>
+    <label for="benefits">Can you name any benefits of trees?
+      <textarea id="benefits" name="benefits" rows="3" cols="30"  placeholder="would you like to say something....."></textarea>
+        </label>
+        </fieldset>
+ <input type="Submit" id="submit" />
+    </form>
+    <div>
+    </body>
+  </html>
